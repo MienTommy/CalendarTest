@@ -28,7 +28,7 @@ public class CalendarTest
         /*Date*/
         Calendar mDateIn = Calendar.getInstance();
         Calendar mDateOut = Calendar.getInstance();
-        mDateOut.set(mDateOut.YEAR, mDateOut.MONTH, mDateOut.DAY_OF_MONTH, mDateOut.HOUR_OF_DAY + 10, mDateOut.MINUTE + 25);
+        mDateOut.set(mDateOut.YEAR, mDateOut.MONTH, mDateOut.DAY_OF_MONTH, mDateOut.HOUR_OF_DAY, mDateOut.MINUTE);
 
         DecimalFormat twoDecimal = new DecimalFormat("0.##");
         double totalHours = 0;
